@@ -1,15 +1,32 @@
-.Ph {
+body {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(45deg, #00f, #a00);
 }
 
-#P {
-    color: black;
-    background-color: orange;
+.rainbow-text {
+    font-size: 2em;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, #ff0000, #ffae00, #ff0, #0f0, #00f, #a00, #ff00ff);
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
 }
 
-#H {
-    color: orange;
-    background-color: black;
+
+@keyframes rainbowAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.animated {
+    background-size: 600% 600%;
+    animation: rainbowAnimation 8s linear infinite;
 }
