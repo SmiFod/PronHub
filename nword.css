@@ -1,6 +1,7 @@
 .Nword {
     display: flex;
     justify-content: center;
+    width: 20%;
 }
 
 h1 {
