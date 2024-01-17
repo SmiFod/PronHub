@@ -17,3 +17,9 @@
 img {
     width: 20%;
 }
+
+.nav {
+    text-decoration: inherit;
+    display: flex;
+    gap: 20px;
+}
