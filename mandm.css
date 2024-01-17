@@ -1,0 +1,32 @@
+body {
+    background-color: brown;
+}
+
+.h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+}
+
+#m {
+    color: greenyellow;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    width: 20%;
+}
+
+#l {
+    color: yellow;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    width: 20%;
+}
