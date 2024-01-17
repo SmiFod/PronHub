@@ -1,0 +1,15 @@
+.Ph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#P {
+    color: black;
+    background-color: orange;
+}
+
+#H {
+    color: orange;
+    background-color: black;
+}
